@@ -9,6 +9,8 @@ RUN npm install
 ENV APP_ID setYourAppId
 ENV MASTER_KEY setYourMasterKey
 ENV DATABASE_URI setMongoDBURI
+ENV GCM_SERVER_KEY setGCMServerKey
+ENV GCM_SENDER_ID setGCMSenderID
 
 # Optional (default : 'parse/cloud/main.js')
 # ENV CLOUD_CODE_MAIN cloudCodePath
